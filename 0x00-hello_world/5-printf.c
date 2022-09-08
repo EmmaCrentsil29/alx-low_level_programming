@@ -1,4 +1,9 @@
-#include <stdio.h>
+/*
+ * File: 5-printf.c
+ * Auth: Emma Crentsil
+ */
+
+ #include <stdio.h>
 
 /**
  * main - Prints "with proper grammar, but the outcome is
