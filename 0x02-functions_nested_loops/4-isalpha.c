@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign - function to check for a sign of a number
+ * _isalpha - function to check for a sign of a number
  * @c: is the int that will use for the argument of the function
  * Return: 1 if c is a letter, 0 otherwise
  */
