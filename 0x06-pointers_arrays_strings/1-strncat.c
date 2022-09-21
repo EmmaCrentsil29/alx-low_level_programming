@@ -5,7 +5,7 @@
  * @dest: the string to be appended
  * @src: the string to be appended to @dest
  * @n: the number of bytes from @src to be appended to @dest
- * Return: a pointer to the resulting string @dest
+ * Return: a pointer to the resulting string dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -16,9 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (dest[i++])
 		j++;
-
 	for (i = 0; src[i] && i < n; i++)
-		dest[j] = src[i];
-
+		dest[j++] = src[i];
 	return (dest);
 }
