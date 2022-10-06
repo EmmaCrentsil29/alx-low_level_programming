@@ -70,7 +70,7 @@ char *iterate_zeroes(char *str)
  * @c: The character to be converted.
  *
  * Description: If c is a non-digit, the function
- * exists wit a status of 98.
+ * exits wit a status of 98.
  * Return: The converted int.
  */
 int get_digit(char c)
